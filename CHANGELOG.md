@@ -1,10 +1,16 @@
 # Changes to @csstools/normalize.css
 
-### HEAD
+### 12.1.0 (December 29, 2023)
 
-- Changed: Evergreen variations of normalize.css contribute no specificity.
-- Removed: `fieldset` padding in Firefox is no longer needed.
-- Removed: `text-size-adjust` is no longer needed.
+- Added: `text-size-adjust` [#25](https://github.com/csstools/normalize.css/issues/25)
+- Fixed: group `pre` with `code`, `kbd`, `samp` [#24](https://github.com/csstools/normalize.css/issues/24)
+
+### 12.0.0 (September 15, 2021)
+
+- Changed: normalize.css no longer contributes specificity.
+- Changed: normalize.css fixes now respect `writing-mode`.
+- Removed: Fixes for older browsers, and all fixes for IE.
+- Fixed: `table` uses correct `border-color: currentColor` normalization.
 
 ### 11.0.1 (August 20, 2020)
 

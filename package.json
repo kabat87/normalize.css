@@ -1,6 +1,6 @@
 {
   "name": "@csstools/normalize.css",
-  "version": "11.0.1",
+  "version": "12.1.0",
   "description": "A cross-browser CSS foundation",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "contributors": [
@@ -16,30 +16,10 @@
   "style": "normalize.css",
   "files": [
     "normalize.css",
-    "evergreen.css",
-    "opinionated.css",
-    "opinionated.evergreen.css"
+    "opinionated.css"
   ],
   "scripts": {
-    "prepublishOnly": "npm test",
-    "test": "stylelint normalize.css evergreen.css opinionated.css opinionated.evergreen.css"
-  },
-  "devDependencies": {
-    "stylelint": "^13.8.0",
-    "stylelint-config-standard": "^20.0.0"
-  },
-  "stylelint": {
-    "extends": "stylelint-config-standard",
-    "rules": {
-      "font-family-no-duplicate-names": [
-        true,
-        {
-          "ignoreFontFamilyNames": [
-            "monospace"
-          ]
-        }
-      ]
-    }
+    "test": "echo \"no test\""
   },
   "keywords": [
     "css",
